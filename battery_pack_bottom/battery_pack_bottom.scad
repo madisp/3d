@@ -5,9 +5,9 @@ plate_height = 4;
 pitch = 9.1;
 
 // finetuning
-hole_size = 3.2;
+hole_size = 3.5;
 hole_separation = 65;
-notch_width = 2.2;
+notch_width = 2.3;
 notch_height = 15;
 
 difference() {
