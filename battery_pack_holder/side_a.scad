@@ -2,7 +2,7 @@
 plate_width = 120;
 plate_height = 140;
 wall_diameter = 5;
-wall_height = 13;
+wall_height = 30;
 floor_height = 4;
 
 // main chunk
@@ -39,10 +39,10 @@ difference() {
     }
     
     // side slats
-    translate([main_w/2 - 45.5, 68]) {
+    translate([main_w/2 - 45.5, 70]) {
         cube([3, 20, 100], center = true);
     }
-    translate([main_w/2 + 45.5, 68]) {
+    translate([main_w/2 + 45.5, 70]) {
         cube([3, 20, 100], center = true);
     }
     
