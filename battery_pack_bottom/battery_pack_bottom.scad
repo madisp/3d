@@ -1,5 +1,5 @@
 // main dimensions
-cell_count = 17;
+cell_count = 14;
 cell_width = 100;
 plate_height = 4;
 pitch = 9.1;
